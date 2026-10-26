@@ -31,7 +31,7 @@ change that looks like an improvement in isolation is often wrong here.
 | `.github/workflows/pr-report.yml` | no | Generated; the trusted PR report (comment, fork image publishing, cleanup). |
 
 Do not add top-level files or tooling: no compose files, Makefiles, linters, extra workflows, CHANGELOG.md.
-Live branches: alpine324. Each has its own `image.yml`; target the branch the change applies to.
+Live branches: alpine324, ha. Each has its own `image.yml`; target the branch the change applies to.
 
 ## Style
 

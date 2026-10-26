@@ -15,6 +15,11 @@ release:
   branch: alpine324
   tag: alpine324
   channel: stable
+  tags:
+  - tag: alpine324
+    description: Python on Alpine 3.24.
+  - tag: ha
+    description: Python built for the homeassistant image.
 
 build:
   base: alpine
