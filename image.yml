@@ -1,6 +1,7 @@
 # The manifest for docker-python. Schema: https://github.com/linuxserver-playground/builder/blob/main/schemas/image.schema.json
 schema: 1
 name: python
+kind: tool
 
 summary: python container image.
 
