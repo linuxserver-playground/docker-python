@@ -1,0 +1,23 @@
+NAME             VERSION     TYPE                             
+CacheControl     0.14.4      python                           
+Simple Launcher  1.1.0.14    binary          (+5 duplicates)  
+certifi          2026.10.19  python                           
+distlib          0.4.2       python                           
+distro           1.9.0       python                           
+idna             3.18        python                           
+msgpack          1.1.2       python                           
+packaging        26.2        python                           
+pip              26.2.2      python                           
+pip              UNKNOWN     UnknownPackage                   
+platformdirs     4.10.0      python                           
+pygments         2.20.0      python                           
+pyproject-hooks  1.2.0       python                           
+python           3.15.2      binary                           
+requests         2.34.2      python                           
+resolvelib       1.2.1       python                           
+rich             14.2.0      python                           
+setuptools       70.3.0      python                           
+tomli            2.4.1       python                           
+tomli-w          1.2.0       python                           
+truststore       0.10.4      python                           
+urllib3          2.7.0       python                           
