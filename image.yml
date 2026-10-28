@@ -7,9 +7,13 @@ summary: python container image.
 
 upstream:
   version:
-    type: command
-    run: |-
-      curl -sX GET https://api.github.com/repos/python/cpython/tags | jq -r '.[] | select(.name | contains("rc") or contains("a") or contains("b") | not) | .name' | sed 's|^v||g' | sort -rV | head -1
+    type: json
+    url: https://api.github.com/repos/python/cpython/tags
+    jq: .[].name | select(contains("rc") or contains("a") or contains("b") | not)
+    sort: version
+    transform:
+    - regex: ^v
+      replace: ''
 
 release:
   branch: alpine324
