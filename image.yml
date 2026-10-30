@@ -14,6 +14,9 @@ upstream:
     transform:
     - regex: ^v
       replace: ''
+  sponsor:
+  - name: PSF donations
+    url: https://www.python.org/psf/donations/
 
 release:
   branch: alpine324
